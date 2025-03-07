@@ -1,0 +1,59 @@
+/*
+F49097
+DFB2F4
+FCDDBC
+*/
+
+body {
+    background: #FCDDBC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+#hero {
+    text-align: center;
+    padding: 5rem; /*adjust based on user's browser*/
+}
+
+#hero > h3 /*even if nested if without >*/{
+    margin-top: 0;
+}
+
+#hero > h1 {
+    margin-bottom: 0;
+}
+
+#hero p {
+    line-height: 30px;
+}
+
+#hero img {
+    border-radius: 20px;
+}
+
+hr {
+    border-radius: 100%;
+    width: 50%; /*percent of parent container*/
+}
+
+#art-title {
+    text-align: center;
+}
+
+.art {
+    width: 20rem;
+    margin: 1rem;
+
+    padding: 2rem;
+    border-width: 1px;
+    border-style: dashed;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 40px;
+}
+
+#art-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
